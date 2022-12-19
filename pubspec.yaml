@@ -1,0 +1,38 @@
+name: abhis
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  velocity_x: ^3.6.0
+  data_table_2: ^2.3.10
+  csc_picker: ^0.2.6
+  google_fonts: ^3.0.1
+  iconsax: ^0.0.8
+  msh_checkbox: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+
