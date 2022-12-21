@@ -1,8 +1,10 @@
+import 'package:abhis/activity/loginpg/dashboard/view/dashboard_pc.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:get/get.dart';
 
 class loginpg_pc extends StatelessWidget {
   const loginpg_pc({Key? key}) : super(key: key);
@@ -71,7 +73,7 @@ class loginpg_pc extends StatelessWidget {
             SizedBox(
                 width: 320,
                 height: 50,
-                child: ElevatedButton(onPressed: () {}, style: ElevatedButton.styleFrom(primary: Color(0xff15A49D)),child: Text('Sign in'))).centered().pOnly(top: 30),
+                child: ElevatedButton(onPressed: () {Get.to(dashboard_pc());}, style: ElevatedButton.styleFrom(primary: Color(0xff15A49D)),child: Text('Sign in'))).centered().pOnly(top: 30),
             HStack([
               Text('Home',style: TextStyle(color: Colors.grey)),
               Text('Support',style: TextStyle(color: Colors.grey)).pOnly(left: 20,right: 20),

@@ -19,7 +19,7 @@ dependencies:
   csc_picker: ^0.2.6
   google_fonts: ^3.0.1
   iconsax: ^0.0.8
-  msh_checkbox: ^2.0.0
+  dropdown_button2: ^1.9.2
 
 dev_dependencies:
   flutter_test:

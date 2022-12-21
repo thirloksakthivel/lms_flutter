@@ -1,4 +1,4 @@
-import 'package:abhis/widgets/appikorn_loader.dart';
+import 'package:abhis/widgets/appikorn_widgets/appikorn_loader.dart';
 import 'package:data_table_2/data_table_2.dart';
 import 'package:flutter/material.dart';
 
